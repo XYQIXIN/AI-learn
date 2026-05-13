@@ -1,0 +1,61 @@
+# Python基础报错示例
+
+SyntaxError（语法错误）:
+   print "Hello, World!"
+   # 缺少括号，应该是 print("Hello, World!")
+
+IndentationError（缩进错误）:
+   def my_function():
+   print("Hello, World!")
+   # 函数体缩进不正确
+
+NameError（名称错误）:
+   print(x)
+   # x未定义
+
+TypeError（类型错误）:
+   x = "5"
+   y = 2
+   z = x + y
+   # 字符串和整数不能直接相加
+
+IndexError（索引错误）:
+   my_list = [1, 2, 3]
+   print(my_list[3])
+   # 索引超出了列表范围
+
+KeyError（键错误）:
+   my_dict = {"name": "Alice", "age": 30}
+   print(my_dict["gender"])
+   # 字典中没有"gender"这个键
+
+ValueError（数值错误）:
+   int("abc")
+   # 无法将非数字字符串转换为整数
+
+FileNotFoundError（文件未找到错误）:
+   with open("nonexistent_file.txt", "r") as f:
+       content = f.read()
+   # 文件不存在
+
+ImportError（导入错误）:
+   import nonexistent_module
+   # 未安装或导入的模块不存在
+
+ZeroDivisionError（除零错误）:
+    result = 10 / 0
+    # 除数为零
+
+AttributeError（属性错误）:
+    x = 5
+    print(x.append(1))
+    # 整数对象没有append()方法
+
+KeyboardInterrupt（键盘中断）:
+    while True:
+        pass
+    # 执行这段代码后，按下Ctrl+C将会中断程序执行
+
+    
+hello world
+print语句需要加上括号
