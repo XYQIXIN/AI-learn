@@ -18,7 +18,15 @@
       "Bash(D:/Anaconda3/envs/langchain/python.exe *)",
       "Bash(/d/Anaconda3/envs/langchain/python.exe *)",
       "Bash(echo \"exit code: $?\")",
-      "Bash(D:\\\\Anaconda3\\\\envs\\\\langchain\\\\python.exe *)"
+      "Bash(D:\\\\Anaconda3\\\\envs\\\\langchain\\\\python.exe *)",
+      "Bash(python *)",
+      "Bash(\"E:/AI learn/大模型开发/RAG/LLamaIndex 实现RAG/.venv/Scripts/pip\" install llama-index-core llama-index-llms-openai llama-index-embeddings-openai llama-index-readers-file llama-index-readers-web llama-index-vector-stores-faiss \"unstructured[pdf,docx,pptx]\" pypdf python-pptx pillow trafilatura sentence-transformers rank-bm25 faiss-cpu pymupdf nest-asyncio)",
+      "Bash(\"E:/AI learn/大模型开发/RAG/LLamaIndex 实现RAG/.venv/Scripts/python\" -m pip install --upgrade pip)",
+      "Bash(\"E:/AI learn/大模型开发/RAG/LLamaIndex 实现RAG/.venv/Scripts/pip\" install llama-index-core llama-index-llms-openai llama-index-embeddings-openai)",
+      "Bash(\"D:\\\\Anaconda3\\\\envs\\\\llamaindex-rag\\\\python.exe\" -m pip install llama-index-llms-openai-like llama-index-embeddings-huggingface llama-index-readers-file pymupdf llama-index-vector-stores-faiss faiss-cpu nest-asyncio -q)",
+      "Bash(\"D:\\\\Anaconda3\\\\envs\\\\llamaindex-rag\\\\python.exe\" \"LLamaInde实现RAG.py\")",
+      "Bash('D:\\\\Anaconda3\\\\envs\\\\llamaindex-rag\\\\python.exe' -c ' *)",
+      "Bash(D:\\\\Anaconda3\\\\envs\\\\llamaindex-rag\\\\python.exe *)"
     ]
   }
 }

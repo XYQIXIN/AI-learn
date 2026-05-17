@@ -1,0 +1,22 @@
+# ==================== 核心框架 ====================
+llama-index-core>=0.10.0
+
+# ==================== LLM 适配（DeepSeek / OpenAI 兼容） ====================
+llama-index-llms-openai-like
+
+# ==================== Embedding 模型（本地 HuggingFace） ====================
+llama-index-embeddings-huggingface
+sentence-transformers
+huggingface-hub
+
+# ==================== 文档读取 ====================
+llama-index-readers-file
+pymupdf
+
+# ==================== 向量数据库 ====================
+llama-index-vector-stores-faiss
+faiss-cpu
+
+# ==================== 工具 ====================
+nest-asyncio
+python-dotenv
